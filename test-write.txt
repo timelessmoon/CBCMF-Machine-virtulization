@@ -1,0 +1,1 @@
+{"xPos": "0", "Connection": "Online", "Grab_rotation": "0", "Grabber": "2", "zPos": "0", "Progresspercentage": "103%", "availability": "available", "yPos": "0"}

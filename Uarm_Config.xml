@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectDevices xmlns="urn:mtconnect.org:MTConnectDevices:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectDevices:1.2 ../MTConnectDevices_1.2.xsd">
+    <Header bufferSize="10" instanceId="1" creationTime="2016-02-01T09:00:00" sender="Uarm_rapberry" version="1.0" assetCount="0" assetBufferSize="10"/>
+    <Devices>
+        <Device id="Uarm" uuid="#1" name="Uarm">
+            <DataItems>
+                <DataItem id="availability" type="AVAILABILITY" name="availablility" category="EVENT"/>
+            </DataItems>
+            <Components>
+                <Axes id="axes" name="Axes">
+                    <Components>
+                        <Linear id="x" name="X">
+                            <DataItems>
+                                <DataItem id="xPos" name="Actual X Position" type="POSITION" subType="ACTUAL" category="SAMPLE" coordinateSystem="MACHINE" />
+                            </DataItems>
+                        </Linear>
+                        <Linear id="y" name="Y">
+                            <DataItems>
+                                <DataItem id="yPos" name="Actual Y Position" type="POSITION" subType="ACTUAL" category="SAMPLE" coordinateSystem="MACHINE" />
+                            </DataItems>
+                        </Linear>
+                        <Linear id="z" name="Z">
+                            <DataItems>
+                                <DataItem id="zPos" name="Actual Z Position" type="POSITION" subType="ACTUAL" category="SAMPLE" coordinateSystem="MACHINE" />
+                            </DataItems>
+                        </Linear>
+                        <Bool id="Grabber" name="Grabber">
+                            <DataItems>
+                                <DataItem id="Grabber" name="Actual Grabber status" type="STATUS" subType="ACTUAL" category="SAMPLE" coordinateSystem="MACHINE" />
+                            </DataItems>
+                        </Bool>
+                        <Rotary id="Grab_rotation" name="Grab_rotation">
+                            <DataItems>
+                                <DataItem id="Grab_rotation" name="Actual Grab Rotation" type="ROTATION" subType="ACTUAL" category="SAMPLE" coordinateSystem="MACHINE" />
+                            </DataItems>
+                        </Rotary>
+                    </Components>
+                </Axes>
+            </Components>
+        </Device>
+    </Devices>
+</MTConnectDevices>

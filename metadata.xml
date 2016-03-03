@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Device>
+	<model>Uarm_metal</model>
+	<company>Ufactory</company>
+	<type>Robotic arm</type>
+	<maxXAngle>180</maxXAngle>
+	<maxYAngle>180</maxYAngle>
+	<maxZAngle>180</maxZAngle>
+	<maxGrabberAngle>180</maxGrabberAngle>
+	<connectionType>Bluetooth</connectionType>
+</Device>

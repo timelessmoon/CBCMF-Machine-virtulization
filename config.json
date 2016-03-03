@@ -1,0 +1,9 @@
+{
+    "DeviceConfigurationFile":"Uarm_Config.xml",
+    "DeviceMetadataConfigurationFile":"metadata.xml",
+    "ErrorReference":"Errors.xml",
+    "HTTPHost":{
+        "IP":"0.0.0.0",
+        "Port":1080
+    }
+}
